@@ -1,0 +1,19 @@
+/* General Page Styles */
+html{
+
+}
+
+
+/* Header Content Styles */
+.content {
+   display: flex;
+   height: 64px;
+   align-items: center;
+}
+
+
+.logo {
+  height: 32px;
+}
+
+/* Banner Content Styles */
