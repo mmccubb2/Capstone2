@@ -12,30 +12,37 @@
   <body>
   <!-- Header Section -->
     <header>
-      <div class="content">
-        <a href="index.html" class="desktop logo"><img src="./resources/images/ic-logo.svg" alt="Lion Logo">COLMAR<span class="academy">ACADEMY</span></a>
-        <nav class="desktop">
+      <nav class="container">
+        <!-- Company Logo and Name -->
+        <div class="logo"> <!-- Logo and Company Name -->
+          <a href="index.html"> <img src="./resources/images/ic-logo.svg" alt="Lion Logo"></a>
+          <span class="colmar"> COLMAR </span> <span class="ACADEMY">ACADEMY</span>
+        <div>
+
+      <!-- Menu Navigation -->
+        <div class="desktop">
           <ul>
             <li><a href="#">On Campus</a></li>
             <li><a href="#">Online</a></li>
             <li><a href="#">For Companies</a></li>
             <li><a href="#">Sign In</a></li>
           </ul>
-        </nav>
+        </div><!-- End of desktop div -->
 
         <!-- Mobile Navigation -->
-        <nav class="mobile">
+        <div class="mobile">
           <ul>
             <li><a href="#"><img src="./resources/images/ic-logo.svg"></a></li>
             <li><a href="#"><img src="./resources/images/ic-on-campus.svg"></a></li>
             <li><a href="#"><img src="./resources/images/ic-online.svg"></a></li>
             <li><a href="#"><img src="./resources/images/ic-login.svg"></a></li>
           </ul>
-        </nav>
-      </div> <!-- End of Content Div -->
+        </div> <!-- End of mobile div -->
+      </nav> <!-- End of Navigation Section -->
 
-      <div class="banner">
-        <img src="./resources/images/banner.jpg" alt="People Studying">
+    <!-- BANNER SECTION -->
+      <div class="flex container">
+        <img class="banner-img" src="./resources/images/banner.jpg" alt="People Studying">
         <h1> Learn something new everyday</h1>
         <h2> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
 
@@ -43,7 +50,7 @@
         <div class="banner-btn">
           <span> Start Here </span>
         </div><!-- End of Banner Button Div -->
-      </div> <!-- End of Banner Div -->
+      </div> <!-- End of flex container Div -->      
     </header>
 
   </body>

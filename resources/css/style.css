@@ -1,19 +1,25 @@
 /* General Page Styles */
 html{
-
+font-family: 'Open Sans', sans-serif;
+font-size: 16px;
+background-color: white;
 }
 
+body {
+  margin: 0;
+  line-height: 1.4rem;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+}
+
+.flex{
+  display: flex;
+}
 
 /* Header Content Styles */
-.content {
-   display: flex;
-   height: 64px;
-   align-items: center;
-}
 
-
-.logo {
-  height: 32px;
-}
 
 /* Banner Content Styles */
