@@ -10,16 +10,121 @@ body {
   line-height: 1.4rem;
 }
 
-.container {
+/*.container {
   max-width: 960px;
   margin: auto;
 }
 
 .flex{
   display: flex;
+}*/
+
+/* Header Menu Content Styles
+.content {
+  padding: 1rem 2rem;
 }
 
-/* Header Content Styles */
+.desktop {
+  display: inline-flex;
+  align-items: flex-end;
+}
 
 
-/* Banner Content Styles */
+.mobile {
+  display: none;
+}
+
+
+/* Header Banner Content Styles
+
+.banner-img {
+  display: block;
+  width: 60%;
+}
+*/
+
+header {
+  position: fixed;
+  width: 100%;
+  /*border-bottom: solid 1px #c6c1c1;*/
+  background-color: white;
+  padding: 24px auto;
+  height: 64px;
+  z-index: 1;
+}
+
+header .content {
+  display: flex;
+  align-items: center;
+  padding: 1.875rem;
+}
+
+header .logo {
+  flex: 1;
+  width: 4rem;
+}
+
+header .colmar {
+  font-size: 32px;
+  color: #333333;
+  font-weight: 600;
+}
+
+header .academy {
+  font-size: 32px;
+  font-weight: normal;
+  color: grey;
+}
+
+header nav ul {
+  display: flex;
+}
+
+nav li {
+  padding-left: 3.5rem;
+}
+
+nav a {
+  vertical-align: bottom;
+  line-height: 1.6;
+  font-size: 1.25rem;
+  color: #4a4a4a;
+}
+
+header .mobile {
+  display: none;
+}
+/*
+@media only screen and (max-width: 760px) {
+  header .desktop {
+    display: none;
+  }
+
+  header .mobile {
+    display: block;
+    width: 100%;
+  }
+
+  header .content {
+    padding: .5rem 0;
+  }
+
+  header .mobile ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+
+  header .mobile li {
+    padding: 0;
+  }
+
+  header .mobile .button {
+    padding: .1875rem .5rem;
+    background-color: #9dc20b;
+    line-height: 1.6;
+    color: white;
+  }
+}
+*/
