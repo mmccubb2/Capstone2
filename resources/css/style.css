@@ -10,14 +10,14 @@ body {
   line-height: 1.4rem;
 }
 
-/*.container {
-  max-width: 960px;
+/*.content {
+  max-width: 100%;
   margin: auto;
-}
+}*/
 
 .flex{
   display: flex;
-}*/
+}
 
 /* Header Menu Content Styles
 .content {
@@ -57,12 +57,20 @@ header .content {
   display: flex;
   align-items: center;
   padding: 1.875rem;
+  margin: auto;
 }
 
 header .logo {
   flex: 1;
-  width: 4rem;
+  /*  flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+    width: auto;*/
+    width: 32px;
+    flex-direction: column;
+    justify-content: center;
 }
+
 
 header .colmar {
   font-size: 32px;
@@ -85,7 +93,7 @@ nav li {
 }
 
 nav a {
-  vertical-align: bottom;
+  vertical-align: center;
   line-height: 1.6;
   font-size: 1.25rem;
   color: #4a4a4a;
